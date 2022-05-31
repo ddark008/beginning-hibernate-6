@@ -5,7 +5,7 @@ import com.autumncode.hibernate.util.SessionUtil;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
 
-import javax.persistence.NoResultException;
+import jakarta.persistence.NoResultException;
 
 public class UserManagerImpl implements UserManager {
   @Override

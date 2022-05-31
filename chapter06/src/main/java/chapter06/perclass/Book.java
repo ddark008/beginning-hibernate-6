@@ -1,9 +1,9 @@
 package chapter06.perclass;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Inheritance;
-import javax.persistence.InheritanceType;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Inheritance;
+import jakarta.persistence.InheritanceType;
 
 @Entity(name="PerClassBook")
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)

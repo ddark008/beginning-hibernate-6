@@ -1,6 +1,6 @@
 package ch12;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.Date;
 
 @Entity

@@ -3,8 +3,8 @@ package chapter10.userrole;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.*;
-import javax.persistence.Entity;
+import jakarta.persistence.*;
+import jakarta.persistence.Entity;
 
 @Entity
 @Data

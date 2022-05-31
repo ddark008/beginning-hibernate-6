@@ -1,6 +1,6 @@
 package chapter04.orphan;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 

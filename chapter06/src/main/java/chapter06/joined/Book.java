@@ -1,6 +1,6 @@
 package chapter06.joined;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity(name="JoinedBook")
 @Inheritance(strategy = InheritanceType.JOINED)

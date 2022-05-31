@@ -1,9 +1,9 @@
 package chapter06.single;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Inheritance;
-import javax.persistence.InheritanceType;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Inheritance;
+import jakarta.persistence.InheritanceType;
 
 @Entity(name="SingleBook")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)

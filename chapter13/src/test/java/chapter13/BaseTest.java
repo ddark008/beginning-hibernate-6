@@ -7,7 +7,7 @@ import org.hibernate.envers.AuditReader;
 import org.hibernate.query.Query;
 import org.testng.annotations.BeforeClass;
 
-import javax.persistence.EntityManagerFactory;
+import jakarta.persistence.EntityManagerFactory;
 
 import static org.testng.Assert.*;
 import static org.testng.Assert.assertEquals;

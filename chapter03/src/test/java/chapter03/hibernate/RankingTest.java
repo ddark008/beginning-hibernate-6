@@ -51,7 +51,7 @@ public class RankingTest {
       ranking.setObserver(observer);
       ranking.setSkill(skill);
       ranking.setRanking(8);
-      session.save(ranking);
+      session.persist(ranking);
 
       tx.commit();
     }
@@ -122,7 +122,7 @@ public class RankingTest {
       Ranking ranking = findRanking(session, "J. C. Smell",
           "Gene Showrama", "Java");
       assertNotNull(ranking, "Ranking not found");
-      session.delete(ranking);
+      session.remove(ranking);
       tx.commit();
     }
     assertEquals(getAverage("J. C. Smell", "Java"), 7);
@@ -179,7 +179,7 @@ public class RankingTest {
     ranking.setObserver(observer);
     ranking.setSkill(skill);
     ranking.setRanking(rank);
-    session.save(ranking);
+    session.persist(ranking);
   }
   //end::populateRankingData[]
 
@@ -210,7 +210,7 @@ public class RankingTest {
     if (skill == null) {
       skill = new Skill();
       skill.setName(skillName);
-      session.save(skill);
+      session.persist(skill);
     }
     return skill;
   }
@@ -221,7 +221,7 @@ public class RankingTest {
     if (person == null) {
       person = new Person();
       person.setName(name);
-      session.save(person);
+      session.persist(person);
     }
     return person;
   }

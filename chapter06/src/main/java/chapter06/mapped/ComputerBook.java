@@ -1,6 +1,6 @@
 package chapter06.mapped;
 
-import javax.persistence.Entity;
+import jakarta.persistence.Entity;
 
 @Entity
 public class ComputerBook extends Book {

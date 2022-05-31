@@ -4,8 +4,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.*;
 
-import javax.persistence.*;
-import javax.persistence.OrderBy;
+import jakarta.persistence.*;
+import jakarta.persistence.OrderBy;
 import java.time.*;
 import java.util.ArrayList;
 import java.util.List;

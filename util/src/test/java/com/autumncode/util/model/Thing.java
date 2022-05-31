@@ -2,7 +2,7 @@ package com.autumncode.util.model;
 
 import lombok.Data;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity(name = "Thing")
 @Data

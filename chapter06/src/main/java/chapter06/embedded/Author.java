@@ -1,6 +1,6 @@
 package chapter06.embedded;
 
-import javax.persistence.Embeddable;
+import jakarta.persistence.Embeddable;
 import java.time.LocalDate;
 
 @Embeddable

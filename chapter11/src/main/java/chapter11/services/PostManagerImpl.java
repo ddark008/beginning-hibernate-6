@@ -7,7 +7,7 @@ import com.autumncode.hibernate.util.SessionUtil;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
 
-import javax.persistence.NoResultException;
+import jakarta.persistence.NoResultException;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;

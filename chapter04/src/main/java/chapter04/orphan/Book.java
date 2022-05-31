@@ -1,6 +1,6 @@
 package chapter04.orphan;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 public class Book {

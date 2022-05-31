@@ -6,8 +6,8 @@ import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 import org.testng.annotations.Test;
 
-import javax.persistence.EntityManager;
-import javax.persistence.TypedQuery;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.TypedQuery;
 
 import static org.testng.Assert.*;
 
@@ -20,7 +20,7 @@ public class JPASessionUtilTest {
   }
 
   @Test(
-      expectedExceptions = {javax.persistence.PersistenceException.class}
+      expectedExceptions = {jakarta.persistence.PersistenceException.class}
   )
   public void nonexistentEntityManagerName() {
     JPASessionUtil.getEntityManager("nonexistent");
@@ -34,7 +34,7 @@ public class JPASessionUtilTest {
   }
 
   @Test(
-      expectedExceptions = {javax.persistence.PersistenceException.class}
+      expectedExceptions = {jakarta.persistence.PersistenceException.class}
   )
   public void nonexistentSessionName() {
     JPASessionUtil.getSession("nonexistent");

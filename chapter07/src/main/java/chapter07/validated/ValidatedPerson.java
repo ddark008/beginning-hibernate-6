@@ -2,7 +2,7 @@ package chapter07.validated;
 
 import lombok.*;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;

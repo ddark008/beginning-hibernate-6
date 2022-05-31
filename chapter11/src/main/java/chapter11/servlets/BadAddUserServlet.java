@@ -6,7 +6,7 @@ import com.autumncode.hibernate.util.SessionUtil;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
 
-import javax.persistence.NoResultException;
+import jakarta.persistence.NoResultException;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

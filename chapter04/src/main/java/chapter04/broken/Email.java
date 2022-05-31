@@ -1,7 +1,7 @@
 //tag::preamble[]
 package chapter04.broken;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 public class Email {

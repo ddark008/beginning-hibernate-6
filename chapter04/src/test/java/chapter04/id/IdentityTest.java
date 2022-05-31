@@ -5,7 +5,7 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.testng.annotations.Test;
 
-import javax.persistence.PersistenceException;
+import jakarta.persistence.PersistenceException;
 
 public class IdentityTest {
     @Test

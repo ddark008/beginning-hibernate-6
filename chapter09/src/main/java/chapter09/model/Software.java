@@ -1,8 +1,8 @@
 //tag::preamble[]
 package chapter09.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.util.Objects;

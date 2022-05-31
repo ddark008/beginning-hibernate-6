@@ -1,6 +1,6 @@
 package chapter06.twotables;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Table(

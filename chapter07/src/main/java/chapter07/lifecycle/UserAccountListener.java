@@ -1,6 +1,6 @@
 package chapter07.lifecycle;
 
-import javax.persistence.PrePersist;
+import jakarta.persistence.PrePersist;
 
 public class UserAccountListener {
   @PrePersist

@@ -1,6 +1,6 @@
 package chapter03.hibernate;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 public class Skill {

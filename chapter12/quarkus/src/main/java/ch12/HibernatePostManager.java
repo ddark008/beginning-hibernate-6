@@ -4,7 +4,7 @@ import org.hibernate.Session;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
-import javax.persistence.TypedQuery;
+import jakarta.persistence.TypedQuery;
 import javax.transaction.Transactional;
 import java.util.Date;
 import java.util.List;

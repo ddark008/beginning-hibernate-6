@@ -1,7 +1,7 @@
 //tag::preamble[]
 package chapter04.mapped;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity(name = "Message2")
 public class Message {

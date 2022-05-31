@@ -4,8 +4,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.*;
 
-import javax.persistence.*;
-import javax.persistence.Entity;
+import jakarta.persistence.*;
+import jakarta.persistence.Entity;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;

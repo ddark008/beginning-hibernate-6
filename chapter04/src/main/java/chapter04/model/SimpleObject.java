@@ -1,7 +1,7 @@
 //tag::preamble[]
 package chapter04.model;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 public class SimpleObject {
