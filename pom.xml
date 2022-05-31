@@ -31,15 +31,15 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <testng.version>7.4.0</testng.version>
-        <hibernate.core.version>6.0.0.Alpha8</hibernate.core.version>
+        <hibernate.core.version>6.0.2.Final</hibernate.core.version>
         <h2.version>1.4.200</h2.version>
         <logback.version>1.2.3</logback.version>
-        <lombok.version>1.18.18</lombok.version>
+        <lombok.version>1.18.24</lombok.version>
         <hibernate.validator.version>
-            6.2.0.Final
+            6.2.3.Final
         </hibernate.validator.version>
         <javax.el-api.version>3.0.0</javax.el-api.version>
         <ignite.version>2.10.0</ignite.version>
@@ -84,7 +84,7 @@
                 <version>${hibernate.core.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.hibernate</groupId>
+                <groupId>org.hibernate.orm</groupId>
                 <artifactId>hibernate-envers</artifactId>
                 <version>${hibernate.core.version}</version>
             </dependency>
@@ -129,8 +129,28 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <release>11</release>
+                    <release>17</release>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <id>enforce-maven</id>
+                        <goals>
+                            <goal>enforce</goal>
+                        </goals>
+                        <configuration>
+                            <rules>
+                                <requireMavenVersion>
+                                    <version>3.1.1</version>
+                                </requireMavenVersion>
+                            </rules>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
