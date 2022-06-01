@@ -10,7 +10,7 @@ import org.testng.IExpectedExceptionsHolder;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import javax.validation.ConstraintViolationException;
+import jakarta.validation.ConstraintViolationException;
 
 import static org.testng.Assert.fail;
 

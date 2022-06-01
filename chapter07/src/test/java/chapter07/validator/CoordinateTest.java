@@ -7,7 +7,7 @@ import org.hibernate.Transaction;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import javax.validation.ConstraintViolationException;
+import jakarta.validation.ConstraintViolationException;
 
 public class CoordinateTest {
   private void persist(Coordinate entity) {

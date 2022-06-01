@@ -4,7 +4,7 @@ import chapter07.unvalidated.UnvalidatedSimplePerson;
 import chapter07.validated.ValidatedPerson;
 import com.autumncode.hibernate.util.SessionUtil;
 
-import javax.validation.ConstraintViolationException;
+import jakarta.validation.ConstraintViolationException;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;

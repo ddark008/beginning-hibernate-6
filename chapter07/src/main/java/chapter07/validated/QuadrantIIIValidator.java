@@ -1,7 +1,7 @@
 package chapter07.validated;
 
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorContext;
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
 
 public class QuadrantIIIValidator
     implements ConstraintValidator<NoQuadrantIII, Coordinate> {

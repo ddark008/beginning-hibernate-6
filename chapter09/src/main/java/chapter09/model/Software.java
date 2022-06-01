@@ -3,7 +3,7 @@ package chapter09.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
-import javax.validation.constraints.NotNull;
+import jakarta.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.util.Objects;
 

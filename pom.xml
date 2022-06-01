@@ -39,9 +39,10 @@
         <logback.version>1.2.3</logback.version>
         <lombok.version>1.18.24</lombok.version>
         <hibernate.validator.version>
-            6.2.3.Final
+            7.0.4.Final
         </hibernate.validator.version>
-        <javax.el-api.version>3.0.0</javax.el-api.version>
+        <jakarta.el-api.version>5.0.0</jakarta.el-api.version>
+        <jakarta.el.version>5.0.0-M1</jakarta.el.version>
         <ignite.version>2.10.0</ignite.version>
         <jackson.version>2.12.3</jackson.version>
     </properties>
